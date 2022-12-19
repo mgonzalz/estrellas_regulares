@@ -1,6 +1,7 @@
 from turtle import *
 def estrella_regular(lados):
     color('black', 'black') # color de la estrella
+    speed(4) # velocidad de la tortuga
     begin_fill() # comienza a rellenar
     for i in range(lados):
         forward(200) # avanza 200 pasos
